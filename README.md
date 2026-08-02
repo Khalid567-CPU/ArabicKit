@@ -2,7 +2,7 @@
 
 Production-ready Kotlin utilities for Arabic text normalization, search, and numeral conversion on Android.
 
-> ArabicKit is in active foundation development. The public API included in this branch is tested, but `0.x` releases may still evolve before the first stable release.
+> ArabicKit `0.1.0` is the first public foundation release. The API is tested, but `0.x` releases may still evolve before the first stable release.
 
 ## Current capabilities
 
@@ -61,7 +61,7 @@ val western = ArabicNumerals.convert(
 
 ## Project status
 
-The project is preparing its first `0.1.0` release. See [ROADMAP.md](ROADMAP.md) and [CHANGELOG.md](CHANGELOG.md).
+ArabicKit is preparing the public `0.1.0` release. See [ROADMAP.md](ROADMAP.md) and [CHANGELOG.md](CHANGELOG.md).
 
 ## Contributing
 
