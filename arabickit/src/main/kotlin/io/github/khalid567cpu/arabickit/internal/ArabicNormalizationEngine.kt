@@ -55,9 +55,7 @@ internal object ArabicNormalizationEngine {
             if (options.normalizeWhitespace && isAsciiWhitespace(character)) {
                 when {
                     normalized.isEmpty() -> {
-                        if (pendingLeadingStart == null) {
-                            pendingLeadingStart = index
-                        }
+                        pendingLeadingStart = null
                     }
 
                     normalized.last() == ' ' -> {
