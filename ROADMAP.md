@@ -16,7 +16,9 @@
 - [x] Android `Spannable` highlighting.
 - [x] Multi-match and overlapping-match support.
 - [x] Sample and documentation updates.
-- [ ] Complete CI review and publish `v0.2.0`.
+- [x] Physical-device instrumentation verification.
+- [x] Complete CI review.
+- [ ] Publish `v0.2.0`.
 
 ## 0.3.0 — Advanced Arabic utilities
 
