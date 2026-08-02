@@ -6,6 +6,8 @@ The format follows Keep a Changelog, and releases will follow Semantic Versionin
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-08-02
+
 ### Added
 
 - `ArabicMatchRange` with original UTF-16 source offsets.
@@ -14,6 +16,7 @@ The format follows Keep a Changelog, and releases will follow Semantic Versionin
 - Offset-aware normalization across diacritics, Quranic marks, tatweel, alef variants, whitespace collapse, and Latin lowercase expansion.
 - Android background highlighting with `ArabicHighlighter`.
 - Range-search coverage in the sample app and unit tests.
+- Connected-device instrumentation coverage for `ArabicHighlighter` on a physical Android runtime.
 
 ## [0.1.0] - 2026-08-02
 
