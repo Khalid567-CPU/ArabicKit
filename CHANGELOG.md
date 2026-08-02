@@ -6,6 +6,15 @@ The format follows Keep a Changelog, and releases will follow Semantic Versionin
 
 ## [Unreleased]
 
+### Added
+
+- `ArabicMatchRange` with original UTF-16 source offsets.
+- `ArabicSearch.findFirst(...)` and `ArabicSearch.findAll(...)`.
+- Optional overlapping matches and result limits.
+- Offset-aware normalization across diacritics, Quranic marks, tatweel, alef variants, whitespace collapse, and Latin lowercase expansion.
+- Android background highlighting with `ArabicHighlighter`.
+- Range-search coverage in the sample app and unit tests.
+
 ## [0.1.0] - 2026-08-02
 
 ### Added
