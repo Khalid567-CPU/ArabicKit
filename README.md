@@ -2,7 +2,7 @@
 
 Production-ready Kotlin utilities for Arabic text normalization, search, range mapping, highlighting, and numeral conversion on Android.
 
-> ArabicKit `0.1.0` is the first public foundation release. The API is tested, but `0.x` releases may still evolve before the first stable release.
+> ArabicKit `0.2.0` adds original-text search ranges, multiple-match support, and Android highlighting. The API is tested, but `0.x` releases may still evolve before the first stable release.
 
 ## Current capabilities
 
@@ -17,7 +17,7 @@ Production-ready Kotlin utilities for Arabic text normalization, search, range m
 - Convert Western, Arabic-Indic, and Eastern Arabic-Indic digits.
 - Java-friendly APIs through `@JvmStatic` and `@JvmOverloads`.
 - A dependency-free Android sample app.
-- Unit tests, Android Lint, and GitHub Actions CI.
+- Unit tests, Android Lint, GitHub Actions CI, and connected-device instrumentation coverage.
 
 ## Modules
 
@@ -93,11 +93,11 @@ val western = ArabicNumerals.convert(
 
 ## Releases
 
-The first public release is `v0.1.0`. Binary AAR assets are available from GitHub Releases.
+The current release is `v0.2.0`. Binary AAR assets are available from GitHub Releases.
 
 ## Project status
 
-ArabicKit is developing `0.2.0`, focused on original-text search ranges and Android highlighting. See [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md), and the [0.2.0 implementation plan](docs/0.2.0-search-ranges-plan.md).
+ArabicKit `0.2.0` delivers original-text search ranges and Android highlighting. The next planned release is `0.3.0`, focused on advanced Arabic utilities. See [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md), and the [0.2.0 implementation plan](docs/0.2.0-search-ranges-plan.md).
 
 ## Contributing
 
