@@ -7,7 +7,11 @@
     <string name="run">Run ArabicKit</string>
     <string name="normalized_label">Normalized text</string>
     <string name="numerals_label">Western numerals</string>
-    <string name="search_label">Search for “ان الله”</string>
-    <string name="search_match">Match found</string>
-    <string name="search_no_match">No match</string>
+    <string name="search_label">Matches for “ان الله”</string>
+    <string name="highlighted_label">Original-text highlighting</string>
+
+    <plurals name="search_matches">
+        <item quantity="one">%d match</item>
+        <item quantity="other">%d matches</item>
+    </plurals>
 </resources>
