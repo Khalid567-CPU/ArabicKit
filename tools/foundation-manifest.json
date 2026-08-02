@@ -1,0 +1,14 @@
+{
+  "name": "ArabicKit Foundation 01",
+  "version": "1.0.0",
+  "branch": "feature/foundation",
+  "agp": "9.3.0",
+  "gradle": "9.5.0",
+  "compileSdk": 37,
+  "targetSdk": 37,
+  "minSdk": 24,
+  "modules": [
+    ":arabickit",
+    ":sample"
+  ]
+}
