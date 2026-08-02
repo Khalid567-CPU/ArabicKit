@@ -6,7 +6,8 @@
 - [x] Arabic-aware contains and equality checks.
 - [x] Numeral conversion.
 - [x] Unit tests and CI.
-- [ ] API review and first release.
+- [x] API review.
+- [ ] Publish the first public release.
 
 ## 0.2.0 — Search ranges and highlighting
 
