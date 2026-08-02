@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "io.github.khalid567cpu"
-version = "0.1.0"
+version = "0.2.0"
 
 android {
     namespace = "io.github.khalid567cpu.arabickit"
