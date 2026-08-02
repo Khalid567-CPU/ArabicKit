@@ -6,6 +6,8 @@ The format follows Keep a Changelog, and releases will follow Semantic Versionin
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-08-02
+
 ### Added
 
 - Android library foundation.
