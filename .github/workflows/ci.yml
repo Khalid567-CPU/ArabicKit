@@ -31,5 +31,12 @@ jobs:
       - name: Make Gradle wrapper executable
         run: chmod +x gradlew
 
-      - name: Verify foundation
-        run: ./gradlew verifyFoundation --stacktrace
+      - name: Verify and assemble release
+        run: ./gradlew verifyFoundation :arabickit:assembleRelease --stacktrace
+
+      - name: Upload release AAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: arabickit-release-aar
+          path: arabickit/build/outputs/aar/arabickit-release.aar
+          if-no-files-found: error
