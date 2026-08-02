@@ -7,14 +7,16 @@
 - [x] Numeral conversion.
 - [x] Unit tests and CI.
 - [x] API review.
-- [ ] Publish the first public release.
+- [x] Publish the first public release.
 
 ## 0.2.0 — Search ranges and highlighting
 
-- Original-text index mapping.
-- Safe match ranges.
-- Android `Spannable` highlighting.
-- Multi-match support.
+- [x] Original-text index mapping.
+- [x] Safe match ranges.
+- [x] Android `Spannable` highlighting.
+- [x] Multi-match and overlapping-match support.
+- [x] Sample and documentation updates.
+- [ ] Complete CI review and publish `v0.2.0`.
 
 ## 0.3.0 — Advanced Arabic utilities
 
