@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArabicKit Sample</string>
+    <string name="title">ArabicKit</string>
+    <string name="subtitle">Production-ready Arabic text utilities for Android.</string>
+    <string name="input_hint">Enter Arabic text</string>
+    <string name="run">Run ArabicKit</string>
+    <string name="normalized_label">Normalized text</string>
+    <string name="numerals_label">Western numerals</string>
+    <string name="search_label">Search for “ان الله”</string>
+    <string name="search_match">Match found</string>
+    <string name="search_no_match">No match</string>
+</resources>
